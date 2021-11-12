@@ -10,7 +10,7 @@ public class Boss
     // 攻撃用の関数
     public void Magic()
     {
-        if (mp > 6)
+        if (mp >= 5)
         {
             this.mp = this.mp - 5;
             Debug.Log("魔法攻撃をした。残りMPは" + this.mp);
