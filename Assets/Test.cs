@@ -10,7 +10,7 @@ public class Boss
     // 攻撃用の関数
     public void Magic()
     {
-        if (mp > 5)
+        if (mp > 6)
         {
             this.mp = this.mp - 5;
             Debug.Log("魔法攻撃をした。残りMPは" + this.mp);
@@ -54,7 +54,7 @@ public class Test : MonoBehaviour
         }
 
         // 配列の各要素の値を逆順に表示
-        for (int i = 4; i > 0; i--)
+        for (int i = 4; i > -1; i--)
         {
             Debug.Log(arrey[i]);
         }
